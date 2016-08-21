@@ -11,6 +11,56 @@
 #about .btn-design {
   margin-top: 20px;
 }
+#about .service-box h3 {
+  color: #56B4D3;
+}
 #experiences img {
-  width: 90%;
+  width: 100%;
+}
+#experiences .container {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+#experiences .details h1 {
+  color: #56B4D3;
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-size: 30px;
+}
+#experiences .details h3 {
+  color: #56B4D3;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+#experiences .details .duration {
+  color: darkGrey;
+}
+@media (min-width: 768px) {
+  #experiences .details h1 {
+    font-size: 36px;
+  }
+  #experiences .details h3 {
+    font-size: 24px;
+  }
+}
+#contact {
+  margin-top: 20px;
+  padding-top: 20px;
+  color: white;
+  background: #348F50;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #348F50, #56B4D3);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #348F50, #56B4D3);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #348F50, #56B4D3);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #348F50, #56B4D3);
+}
+#contact a {
+  color: white;
+}
+#contact hr {
+  background: white;
 }

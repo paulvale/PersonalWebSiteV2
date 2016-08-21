@@ -15,10 +15,10 @@ body {
 hr {
     border : 0px;
     height : 5px;
-    background-image: -webkit-linear-gradient(left top, @blueGradient, @yellowGradient); /* For Safari 5.1 to 6.0 */
-    background-image: -o-linear-gradient(bottom right, @blueGradient, @yellowGradient); /* For Opera 11.1 to 12.0 */
-    background-image: -moz-linear-gradient(bottom right, @blueGradient, @yellowGradient); /* For Firefox 3.6 to 15 */
-    background-image: linear-gradient(to bottom right, @blueGradient, @yellowGradient);
+    background-image: -webkit-linear-gradient(left top, @greenGradient, @blueGradient); /* For Safari 5.1 to 6.0 */
+    background-image: -o-linear-gradient(bottom right, @greenGradient, @blueGradient); /* For Opera 11.1 to 12.0 */
+    background-image: -moz-linear-gradient(bottom right, @greenGradient, @blueGradient); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(to bottom right, @greenGradient, @blueGradient);
 }
 
 hr.small {
@@ -121,10 +121,10 @@ aside {
         }
     }
     @media (max-width: 768px){
-        background: -webkit-linear-gradient(left top, @blueGradient, @yellowGradient); /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(bottom right, @blueGradient, @yellowGradient); /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(bottom right, @blueGradient, @yellowGradient); /* For Firefox 3.6 to 15 */
-        background: linear-gradient(to bottom right, @blueGradient, @yellowGradient);
+        background: -webkit-linear-gradient(left top, @greenGradient, @blueGradient); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, @greenGradient, @blueGradient); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, @greenGradient, @blueGradient); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, @greenGradient, @blueGradient);
         border-color: fade(@gray-darker, 5%);
     }
 
@@ -146,10 +146,10 @@ aside {
             }
         }
         &.affix {
-            background: -webkit-linear-gradient(left top, @blueGradient, @yellowGradient); /* For Safari 5.1 to 6.0 */
-            background: -o-linear-gradient(bottom right, @blueGradient, @yellowGradient); /* For Opera 11.1 to 12.0 */
-            background: -moz-linear-gradient(bottom right, @blueGradient, @yellowGradient); /* For Firefox 3.6 to 15 */
-            background: linear-gradient(to bottom right, @blueGradient, @yellowGradient);
+            background: -webkit-linear-gradient(left top, @greenGradient, @blueGradient); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(bottom right, @greenGradient, @blueGradient); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(bottom right, @greenGradient, @blueGradient); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(to bottom right, @greenGradient, @blueGradient);
             border-color: fade(@gray-darker, 5%);
             .navbar-header .navbar-brand {
                 color: white;
@@ -200,9 +200,11 @@ header {
             }
             p {
                 font-weight: 300;
-                color: fade(white, 70%);
+                color: white;
                 font-size: 16px;
                 margin-bottom: 50px;
+                margin-left: 10px;
+                margin-right: 10px;
             }
         }
     }
@@ -225,8 +227,6 @@ header {
                 p {
                     font-size: 18px;
                     max-width: 80%;
-                    margin-left: auto;
-                    margin-right: auto;
                 }
             }
         }
@@ -240,8 +240,12 @@ header {
 }
 
 .sectionLimit {
-    margin-bottom: 50px;
-    margin-top: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .service-box {
@@ -286,11 +290,11 @@ header {
 
 .btn-design {
     color: white;
-    background: @blueGradient; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left top, @blueGradient, @yellowGradient); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, @blueGradient, @yellowGradient); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, @blueGradient, @yellowGradient); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, @blueGradient, @yellowGradient);
+    background: @greenGradient; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, @greenGradient, @blueGradient); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, @greenGradient, @blueGradient); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, @greenGradient, @blueGradient); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, @greenGradient, @blueGradient);
 }
 
 // Extras
