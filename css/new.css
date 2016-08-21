@@ -17,6 +17,16 @@
 #experiences img {
   width: 100%;
 }
+#experiences img.horizontal {
+  max-height: 250px;
+  width: auto;
+}
+@media (min-width: 768px) {
+  #experiences img.horizontal {
+    max-height: none;
+    width: 100%;
+  }
+}
 #experiences .container {
   padding-top: 10px;
   padding-bottom: 20px;

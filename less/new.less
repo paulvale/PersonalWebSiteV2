@@ -22,6 +22,20 @@
 #experiences {
 	img {
 		width: 100%;
+
+		&.horizontal {
+			max-height: 250px;
+			width: auto;
+		}
+	}
+
+	@media (min-width: 768px) {
+		img{
+			&.horizontal {
+				max-height: none;
+				width: 100%;	
+			}
+		}
 	}
 
 	.container {
